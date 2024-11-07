@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Updock&display=swap');
+
+.navbar{
+    background-color: whitesmoke !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    position: static;
+    display: block;
+    z-index: 1000;
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    margin-left: 10px;
+    
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bi-brightness-high, .bi-moon-stars{
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+
+.dark{
+    background-color: #717171!important;
+    color: white !important; 
+}
+
+.nav-dark{
+    background-color: #575757 !important;
+    color: black !important;
+}
+
+.nav-dark .nav-link,
+.nav-dark .navbar-brand,
+.nav-dark .bi-brightness-high,
+.nav-dark .bi-moon-stars,
+.nav-dark .bi-search,
+.nav-dark .bi-bag {
+    color: white !important;
+}   
+
+.search-result{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.bi-search{
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Regola l'opacità */
+    z-index: 10; /* Deve essere inferiore a quello del modal */
+}
+
+
